@@ -9,7 +9,6 @@
     width: 400px;
     background: darkgrey;
     padding: 5px;
-
 }
 
 h2, h1
@@ -37,18 +36,52 @@ h2, h1
     25% {background: green; transform: rotate(720deg);}
     50% {background: rgb(128, 0, 64); transform: rotate(1200deg);}
     75% {background: purple; transform: rotate(720deg);}
-    100% {background: cyan;transform: rotate(2400deg);}
+    100% {background: cyan;transform: rotate(4800deg);}
 }
 /*--------------------------------------------------------------------*/
 /*-----------------------Exercice 2-----------------------------------*/
 /*--------------------------------------------------------------------*/
+#plan2{
+    margin: auto;
+    height: 250px;
+    width: 400px;
+    background: darkgrey;
+    padding: 5px;
+}
+#zone2{
+    height: 78%;
+    margin: auto;
+}
 
+#balle{
+    background:red;
+    position: relative;
+    border-radius:50%;
+    width: 25px;
+    height: 25px;
+    border:4px solid black;
+    animation: rebond;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 
-
+@keyframes rebond
+{
+    0% {top : 0px;}
+    10% {transform: translateY(145px);}
+    20% {transform: translateY(100px);}
+    30% {transform: translateY(145px);}
+    40% {transform: translateY(110px);}
+    50% {transform: translateY(145px);}
+    60% {transform: translateY(120px);}
+    70% {transform: translateY(145px);}
+    80% {transform: translateY(135px);}
+    100% {transform: translateY(145px);}
+}
 
 
 
 
 /*--------------------------------------------------------------------*/
-/*--------------------------------------------------------------------*/
+/*-----------------------Exercice 2-----------------------------------*/
 /*--------------------------------------------------------------------*/
