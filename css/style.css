@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------------*/
+/*-----------------------Exercice 1-----------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+#plan1{
+    margin: auto;
+    height: 250px;
+    width: 400px;
+    background: darkgrey;
+    padding: 5px;
+
+}
+
+h2, h1
+{
+    text-align: center;
+}
+
+#carre
+{
+    position: relative;
+    background: cyan;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    margin: auto;
+    animation: carre;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes carre
+{
+    0% {background: cyan;}
+    25% {background: green; transform: rotate(720deg);}
+    50% {background: rgb(128, 0, 64); transform: rotate(1200deg);}
+    75% {background: purple; transform: rotate(720deg);}
+    100% {background: cyan;transform: rotate(2400deg);}
+}
+/*--------------------------------------------------------------------*/
+/*-----------------------Exercice 2-----------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
