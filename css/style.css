@@ -25,18 +25,18 @@ h2, h1
     top: 50px;
     margin: auto;
     animation: carre;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     
 }
 
 @keyframes carre
 {
-    0% {background: cyan;}
-    25% {background: green; transform: rotate(720deg);}
-    50% {background: rgb(128, 0, 64); transform: rotate(1200deg);}
-    75% {background: purple; transform: rotate(720deg);}
-    100% {background: cyan;transform: rotate(4800deg);}
+    0% {background: tomato;transform: rotate(600deg);}
+    25% {background: tomato; transform: rotate(1200deg);}
+    50% {background: tomato; transform: rotate(2400deg);}
+    75% {background: tomato; transform: rotate(4800deg);}
+    100% {background: tomato;transform: rotate(9600deg);}
 }
 /*--------------------------------------------------------------------*/
 /*-----------------------Exercice 2-----------------------------------*/
@@ -51,6 +51,7 @@ h2, h1
 #zone2{
     height: 78%;
     margin: auto;
+    width: 25px;
 }
 
 #balle{
@@ -65,8 +66,7 @@ h2, h1
     animation-iteration-count: infinite;
 }
 
-@keyframes rebond
-{
+@keyframes rebond{
     0% {top : 0px;}
     10% {transform: translateY(145px);}
     20% {transform: translateY(100px);}
